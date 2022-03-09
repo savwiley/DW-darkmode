@@ -1,0 +1,45 @@
+:root {
+  --background: #222428;
+  --text: #a19f9f;
+  --input: #3c4046;
+  
+  --headers: #d4d2d2;
+  
+  --link: #0EA291;
+  --visited: #149F8F;
+  --hover: #17e6ce;
+}
+    
+#canvas {
+  background: var(--background);
+  color: var(--text);
+}
+
+h2 {
+  color: var(--headers) !important;
+}
+
+a:link {
+  color: var(--link);
+}
+a:visited {
+  color: var(--visited);
+}
+a:hover {
+  color: var(--hover);
+}
+
+input,
+textarea,
+select,
+#panel-quickupdate input {
+  background: var(--input);
+  border: none;
+  color: var(--headers);
+  text-shadow: none;
+}
+
+label,
+#panel-quickupdate .contents label {
+  color: var(--headers);
+}
