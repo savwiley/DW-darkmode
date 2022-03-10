@@ -14,7 +14,7 @@
 
   --lightAccent: #555759;
   --darkAccent: #16171a;
-  
+
   --headerFont: 'Cinzel Decorative', cursive;
 }
 
@@ -50,9 +50,10 @@ textarea,
 select,
 #panel-quickupdate input {
   background: var(--input);
-  border: none;
+  border: 1px solid var(--background);
   color: var(--headers);
   text-shadow: none;
+  box-shadow: none;
 }
 
 label,
@@ -73,7 +74,7 @@ nav {
 
 .top-bar-section li:not(.has-form) a:not(.button),
 nav ul li.topnav a {
-  background: var(--lightAccent) url(https://img.icons8.com/officel/11/000000/spinner-frame-2.png) 0.833333em 0.916667em no-repeat;
+  background: var(--lightAccent) url(https://img.icons8.com/officel/11/000000/spinner-frame-2.png) 0.8em 0.9em no-repeat;
 }
 
 .top-bar-section li:not(.has-form):hover a:not(.button):hover,
@@ -81,22 +82,43 @@ nav ul li.topnav a {
 .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button),
 .top-bar-section li:hover:not(.has-form) a:not(.button):not(.hover),
 nav ul li.hover a {
-  background: var(--dimBackground) url(https://img.icons8.com/officel/11/000000/spinner-frame-2.png) 0.833333em 0.916667em no-repeat;
+  background: var(--dimBackground) url(https://img.icons8.com/officel/11/000000/spinner-frame-2.png) 0.8em 0.9em no-repeat;
 }
 
 .top-bar-section .dropdown li:hover,
 .top-bar-section .dropdown li,
 nav ul li.hover a:hover {
-  background: var(--visited) url(https://img.icons8.com/ios/11/000000/spinner-frame-2.png) 0.833333em 0.916667em no-repeat;
+  background: var(--visited) url(https://img.icons8.com/ios/11/000000/spinner-frame-2.png) 0.8em 0.9em no-repeat;
 }
 
 #logo::after {
   content: "DreamWidth";
+  position: relative;
+  right: 310px;
+  bottom: 20px;
   font-size: 3.5em;
   font-family: var(--headerFont);
+  z-index: 0;
 }
 
 img[src*="dw_logo_purple.png"],
 img[src*="dw_logo.png"] {
-  display: none;
+  border: 5px solid;
+  position: relative;
+  width: 300px;
+  z-index: 1;
+  opacity: 0;
+}
+
+#account-links {
+  z-index: 2;
+}
+
+/* MEDIA */
+@media (max-width: 700px) {
+  #logo::after {
+    position: absolute;
+    right: 130px;
+    font-size: 2em;
+  }
 }
