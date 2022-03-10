@@ -1,34 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
 :root {
-  --background: #222428;
-  --text: #a19f9f;
+  --background: #191b1c;
+  --dimBackground: #232828;
+  --text: #9fa0a1;
   --input: #3c4046;
-  
+
   --headers: #d4d2d2;
+
+  --link: #88d0f9;
+  --visited: #5babc1;
+  --hover: #ccf2ff;
+
+  --lightAccent: #555759;
+  --darkAccent: #16171a;
   
-  --link: #0EA291;
-  --visited: #149F8F;
-  --hover: #17e6ce;
+  --headerFont: 'Cinzel Decorative', cursive;
 }
-    
+
+/* GENERAL */
 #canvas {
   background: var(--background);
   color: var(--text);
+  border-color: var(--darkAccent);
+}
+
+#canvas > .inner {
+  background: #fff;
+  color: #000;
 }
 
 h2 {
   color: var(--headers) !important;
 }
 
-a:link {
+#page a:link {
   color: var(--link);
 }
-a:visited {
+#page a:visited {
   color: var(--visited);
 }
-a:hover {
+#page a:hover {
   color: var(--hover);
 }
 
+/* FORMS */
 input,
 textarea,
 select,
@@ -42,4 +58,45 @@ select,
 label,
 #panel-quickupdate .contents label {
   color: var(--headers);
+}
+
+/* HEADER */
+#shim-alpha {
+  background: var(--dimBackground);
+  border-top: 0.5em solid var(--lightAccent);
+  border-bottom: 0.5em solid var(--darkAccent);
+}
+
+nav {
+  background: var(--lightAccent);
+}
+
+.top-bar-section li:not(.has-form) a:not(.button),
+nav ul li.topnav a {
+  background: var(--lightAccent) url(https://img.icons8.com/officel/11/000000/spinner-frame-2.png) 0.833333em 0.916667em no-repeat;
+}
+
+.top-bar-section li:not(.has-form):hover a:not(.button):hover,
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button),
+.top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button),
+.top-bar-section li:hover:not(.has-form) a:not(.button):not(.hover),
+nav ul li.hover a {
+  background: var(--dimBackground) url(https://img.icons8.com/officel/11/000000/spinner-frame-2.png) 0.833333em 0.916667em no-repeat;
+}
+
+.top-bar-section .dropdown li:hover,
+.top-bar-section .dropdown li,
+nav ul li.hover a:hover {
+  background: var(--visited) url(https://img.icons8.com/ios/11/000000/spinner-frame-2.png) 0.833333em 0.916667em no-repeat;
+}
+
+#logo::after {
+  content: "DreamWidth";
+  font-size: 3.5em;
+  font-family: var(--headerFont);
+}
+
+img[src*="dw_logo_purple.png"],
+img[src*="dw_logo.png"] {
+  display: none;
 }
