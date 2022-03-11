@@ -78,6 +78,10 @@ a.no_meta_text {
   color: var(--hover);
 }
 
+img {
+  filter: brightness(.9) contrast(1.1);
+}
+
 /*  ------ ICONS REPLACEMENTS ------ */
 img[src*="community.png"],
 img[src*="user.png"], 
