@@ -1,6 +1,6 @@
-# DreamWidth Dark Mode Site Skin
+# Dreamwidth Dark Mode Site Skin
 
-A low contrast, dark site skin for [DreamWidth](https://www.dreamwidth.org/). Made with [Stylus](https://github.com/openstyles/stylus).
+A low contrast, dark site skin for [Dreamwidth](https://www.dreamwidth.org/). Made with [Stylus](https://github.com/openstyles/stylus).
 
 ## Want to test drive it and leave feedback?
 
