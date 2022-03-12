@@ -30,6 +30,10 @@
   --stopTrackIcon: url(https://img.icons8.com/ultraviolet/16/000000/no-reminders.png) no-repeat !important;
   --addTagsIcon: url(https://img.icons8.com/ultraviolet/14/000000/plus.png) no-repeat !important;
   --trashIcon: url(https://img.icons8.com/ultraviolet/14/000000/trash-can.png) no-repeat !important;
+  --deleteIcon: url(https://img.icons8.com/ultraviolet/14/000000/cancel.png) no-repeat !important;
+  --screenIcon: url(https://img.icons8.com/ultraviolet/16/000000/no-idea.png) no-repeat !important;
+  --unscreenIcon: url(https://img.icons8.com/ultraviolet/16/000000/light-on.png) no-repeat !important;
+  --freezeIcon: url(https://img.icons8.com/ultraviolet/15/000000/pause-button.png) no-repeat !important;
   
   --coloredListDot: var(--lightAccent) url(https://img.icons8.com/officel/11/000000/spinner-frame-2.png) 0.8em 0.9em no-repeat;
   --bwListDot: var(--visited) url(https://img.icons8.com/ios/11/000000/spinner-frame-2.png) 0.8em 0.9em no-repeat;
@@ -39,9 +43,9 @@
 }
 
 /* ------ GENERAL ------ */
-body:not(.has-navstrip) {
+body:not(.has-navstrip):not(.lj-view-recent):not(.lj-view-archive):not(.lj-view-read):not(.lj-view-tags) {
   min-height: 100vh;
-  background: var(--background)
+  background: var(--background);
 }
 
 #canvas {
@@ -111,6 +115,10 @@ img[src*="memories_add.png"],
 img[src*="tellafriend.png"],
 img[src*="track.png"],
 img[src*="btn_trash.gif"],
+img[src*="delete.png"],
+img[src*="screen.png"],
+img[src*="unscreen.png"],
+img[src*="freeze.png"],
 input[src*="add.png"] {
   width: 0;
   height: 0;
@@ -160,6 +168,22 @@ img[src*="untrack.png"] {
 }
 img[src*="btn_trash.gif"] {
   background: var(--trashIcon);
+  padding: 15px 14px 0 0 !important;
+}
+img[src*="delete.png"] {
+  background: var(--deleteIcon);
+  padding: 15px 14px 0 0 !important;
+}
+img[src*="screen.png"] {
+  background: var(--screenIcon);
+  padding: 15px 14px 0 0 !important;
+}
+img[src*="unscreen.png"] {
+  background: var(--unscreenIcon);
+  padding: 15px 14px 0 0 !important;
+}
+img[src*="freeze.png"] {
+  background: var(--freezeIcon);
   padding: 15px 14px 0 0 !important;
 }
 input[src*="add.png"] {
@@ -529,6 +553,10 @@ footer ul li {
   background: var(--lightAccent);
   border-color: var(--text);
   color: var(--headers);
+}
+
+.screened .header {
+  background: var(--darkAccent) !important;
 }
 
 .entry-interaction-links li:before,
