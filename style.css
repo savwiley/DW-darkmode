@@ -29,6 +29,13 @@
   --trackIcon: url(https://img.icons8.com/ultraviolet/16/000000/notification.png) no-repeat !important;
   --stopTrackIcon: url(https://img.icons8.com/ultraviolet/16/000000/no-reminders.png) no-repeat !important;
   --addTagsIcon: url(https://img.icons8.com/ultraviolet/14/000000/plus.png) no-repeat !important;
+  --trashIcon: url(https://img.icons8.com/ultraviolet/14/000000/trash-can.png) no-repeat !important;
+  
+  --coloredListDot: var(--lightAccent) url(https://img.icons8.com/officel/11/000000/spinner-frame-2.png) 0.8em 0.9em no-repeat;
+  --bwListDot: var(--visited) url(https://img.icons8.com/ios/11/000000/spinner-frame-2.png) 0.8em 0.9em no-repeat;
+  
+  --arrowDown: url(https://img.icons8.com/ultraviolet/14/000000/chevron-down.png);
+  --arrowRight: url(https://img.icons8.com/ultraviolet/14/000000/chevron-right.png);
 }
 
 /* ------ GENERAL ------ */
@@ -103,6 +110,7 @@ img[src*="tag_edit.png"],
 img[src*="memories_add.png"],
 img[src*="tellafriend.png"],
 img[src*="track.png"],
+img[src*="btn_trash.gif"],
 input[src*="add.png"] {
   width: 0;
   height: 0;
@@ -150,9 +158,21 @@ img[src*="untrack.png"] {
   padding: 15px 15px 0 0 !important;
   transform: rotate(20deg);
 }
+img[src*="btn_trash.gif"] {
+  background: var(--trashIcon);
+  padding: 15px 14px 0 0 !important;
+}
 input[src*="add.png"] {
   background: var(--addTagsIcon);
   padding: 15px 14px 0 0 !important;
+}
+
+.collapsible.collapsed .collapse-button {
+  background-image: var(--arrowRight);
+}
+
+.collapsible.expanded .collapse-button {
+  background-image: var(--arrowDown);
 }
 
 /* ------ FORMS ------ */
@@ -163,13 +183,39 @@ select,
 .nav-search input,
 .nav-search select,
 .nav-search input.button,
-button.secondary, 
-.button.secondary {
+button.secondary,
+.button.secondary,
+button,
+.button,
+.submit,
+.secondary.submit,
+.select-list input {
   background: var(--input);
   border: 1px solid var(--darkAccent);
   color: var(--headers);
   text-shadow: none;
   box-shadow: none;
+}
+
+input:not([type]),
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="color"],
+textarea {
+  background: var(--input);
+  color: var(--headers);
+  border: 1px solid var(--darkAccent);
 }
 
 label,
@@ -201,9 +247,136 @@ textarea:focus {
 button.secondary:hover,
 button.secondary:focus,
 .button.secondary:hover,
-.button.secondary:focus {
+.button.secondary:focus,
+button:hover, 
+button:focus, 
+.button:hover, 
+.button:focus,
+.submit:hover,
+.secondary.submit:hover,
+.submit:focus,
+.secondary.submit:focus {
   background-color: var(--headers);
   color: var(--darkAccent)
+}
+
+/* ------ TABLES ------ */
+form#settings_form.table-form {
+  margin: 0 !important;
+}
+
+.display,
+.notifications,
+.mobile,
+.privacy,
+.othersites,
+.shortcuts {
+  margin-left: 0 !important;
+}
+
+#page .tab a:not(.active) {
+  background: var(--dimBackground);
+  border-color: var(--lightAccent);
+}
+
+.tablist .tab a.active {
+  background: var(--lightAccent);
+  border-color: var(--lightAccent);
+}
+
+.tab-header,
+.action-bar {
+  background: var(--lightAccent);
+  border-color: var(--lightAccent);
+}
+
+.shortcuts > .table-form table {
+  width: 100%;
+  border-bottom: 1px solid var(--darkAccent);
+}
+
+.table-form table {
+  background: var(--dimBackground);
+  color: var(--headers);
+}
+
+.odd, tr.odd th, tr.odd td {
+  background: var(--dimBackground);
+  color: var(--headers);
+}
+
+.even, tr.even th, tr.even td {
+  background: var(--lightAccent);
+  color: var(--headers);
+}
+
+thead th, tfoot td {
+  background: var(--dimBackground);
+  color: var(--headers);
+}
+
+/* ------ SETTINGS ------ */
+.section-nav {
+  background: var(--dimBackground);
+}
+
+.section-nav li a, 
+.section-nav ul, 
+.section-nav li, 
+.section-nav-separator,
+.section-nav-content,
+.select-list li, 
+.NotificationTable td{
+  border-color: var(--lightAccent);
+}
+.section-nav-content {
+  border-left: 1px solid var(--lightAccent);
+}
+
+.section-nav li.on {
+  background: var(--lightAccent);
+}
+
+.select-list li img {
+  border-color: var(--link)
+}
+
+hr.hr {
+  color: var(--lightAccent);
+  background-color: var(--lightAccent);
+}
+
+.selected, 
+.select-list li.selected, 
+tr.selected td {
+  background: var(--dimBackground);
+  border-color: var(--link);
+  color: var(--headers);
+}
+
+.subheader {
+  background: var(--lightAccent);
+  color: var(--headers)
+}
+
+/* ------ INBOX ------ */
+.folders a.selected {
+  background: var(--dimBackground);
+  border-color: var(--lightAccent);
+}
+
+.folders a {
+  border-color: var(--lightAccent);
+}
+
+.folders a:hover {
+  background: var(--lightAccent);
+  border-color: var(--lightAccent);
+}
+
+.header {
+  background: var(--lightAccent);
+  color: var(--headers);
 }
 
 /* ------ HEADER ------ */
@@ -214,8 +387,7 @@ button.secondary:focus,
 
 .main-nav,
 .main-nav li.name,
-.main-nav:not(.expanded),
-.main-nav li.name {
+.main-nav:not(.expanded) {
   background: var(--lightAccent);
   top: 7em;
   left: -5%;
@@ -223,10 +395,7 @@ button.secondary:focus,
   width: inherit;
 }
 
-.top-bar-section .has-form {
-  background: var(--lightAccent);
-}
-
+.top-bar-section .has-form,
 .top-bar-section ul li {
   background: var(--lightAccent);
 }
@@ -245,7 +414,7 @@ nav {
 
 .top-bar-section li:not(.has-form) a:not(.button),
 nav ul li.topnav a {
-  background: var(--lightAccent) url(https://img.icons8.com/officel/11/000000/spinner-frame-2.png) 0.8em 0.9em no-repeat;
+  background: var(--coloredListDot);
 }
 
 .top-bar-section li:not(.has-form):hover a:not(.button):hover,
@@ -253,13 +422,13 @@ nav ul li.topnav a {
 .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button),
 .top-bar-section li:hover:not(.has-form) a:not(.button):not(.hover),
 nav ul li.hover a {
-  background: var(--dimBackground) url(https://img.icons8.com/officel/11/000000/spinner-frame-2.png) 0.8em 0.9em no-repeat;
+  background: var(--coloredListDot);
 }
 
 .top-bar-section .dropdown li:hover,
 .top-bar-section .dropdown li,
 nav ul li.hover a:hover {
-  background: var(--visited) url(https://img.icons8.com/ios/11/000000/spinner-frame-2.png) 0.8em 0.9em no-repeat;
+  background: var(--bwListDot);
 }
 
 #logo::after {
@@ -279,7 +448,6 @@ nav ul li.hover a:hover {
 
 img[src*="dw_logo_purple.png"],
 img[src*="dw_logo.png"] {
-  border: 5px solid;
   position: relative;
   width: 300px;
   z-index: 3;
@@ -314,6 +482,7 @@ footer ul li {
 .action-box .inner {
   background-color: var(--dimBackground);
   border: 1px solid var(--darkAccent);
+  color: var(--headers);
 }
 
 .inset-box {
@@ -322,7 +491,14 @@ footer ul li {
   color: var(--headers);
 }
 
-/* ------ NEW PAGES ------ */
+.alert-box.secondary {
+  background: var(--dimBackground);
+  border-color: var(--darkAccent);
+  color: var(--headers);
+  margin-right: 5%;
+}
+
+/* ------ NEW STYLE ONLY ------ */
 #page #content .row {
   margin-left: -40px;
   background: var(--background);
@@ -330,8 +506,15 @@ footer ul li {
 #page #content .row:first-child {
   margin-top: 120px;
 }
+#page #content form:not(.theme-form):not(.layout-form) .row:first-child {
+  margin-top: 0px;
+}
 
-/* ------ COMMENTS ------ */
+#page #content form:not(.theme-form):not(.layout-form) {
+  margin-left: 40px;
+}
+
+/* ------ ENTRIES ------ */
 .comment-page-list {
   background-color: var(--background);
   border-color: var(--dimBackground);
@@ -363,7 +546,7 @@ footer ul li {
   color: var(--text);
 }
 
-/* ------ POST ENTRY ------ */
+/* ------ POST AN ENTRY ------ */
 #compose-entry {
   border-color: var(--lightAccent);
 }
@@ -442,8 +625,7 @@ td.ups_selected_cell {
 @media (max-width: 640px) {
   .main-nav,
   .main-nav li.name,
-  .main-nav:not(.expanded),
-  .main-nav li.name {
+  .main-nav:not(.expanded) {
     top: 4em;
   }
   #page #content .row:first-child {
@@ -469,6 +651,15 @@ td.ups_selected_cell {
   .row #logo::after {
     font-size: 3em;
   }
+  #page #content form:not(.theme-form):not(.layout-form) {
+    margin-left: 70px;
+  }
+}
+
+@media (max-width: 1025px) {
+  #page #content form:not(.theme-form):not(.layout-form) {
+    margin-left: 70px;
+  }
 }
 
 @media (min-width: 1025px) {
@@ -476,21 +667,40 @@ td.ups_selected_cell {
     bottom: 80px;
     left: 20px;
   }
-  .row #logo img{
+  .row #logo img {
     width: 420px;
     height: 70px;
   }
+  #page #content form:not(.theme-form):not(.layout-form) {
+    margin: 0 70px;
+  }
+  #account-links.row {
+    right: 8%;
+  }
+  .select-list input {
+    margin-left: auto;
+  }
 }
- 
+
 @media (min-width: 1200px) {
   #page #content .row {
     margin-left: inherit;
   }
   .main-nav,
   .main-nav li.name,
-  .main-nav:not(.expanded),
-  .main-nav li.name {
+  .main-nav:not(.expanded) {
     left: 0;
     right: 0;
+  }
+  #page #content form:not(.theme-form):not(.layout-form) {
+    margin-left: 100px !important;
+  }
+  .display,
+  .notifications,
+  .mobile,
+  .privacy,
+  .othersites,
+  .shortcuts {
+    margin-left: -100px !important;
   }
 }
