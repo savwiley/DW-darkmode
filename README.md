@@ -1,6 +1,8 @@
-# Dreamwidth Dark Mode Site Skin
+# <p align="center">Dreamwidth Dark Mode Site Skin</p>
 
-A low contrast, dark site skin for [Dreamwidth](https://www.dreamwidth.org/). Made with [Stylus](https://github.com/openstyles/stylus).
+<p align="center"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/savwiley/DW-darkmode?label=last%20update&style=flat-square"></p>
+
+<p align="center">A low contrast, dark site skin for <a href="https://www.dreamwidth.org/">Dreamwidth</a>. Made with <a href="https://github.com/openstyles/stylus">Stylus</a>. <b>(WIP)</b></p>
 
 ## Want to test drive it and leave feedback?
 
@@ -16,3 +18,12 @@ A low contrast, dark site skin for [Dreamwidth](https://www.dreamwidth.org/). Ma
 ## Notes
 
 - Custom styling on journal entries cannot be changed.
+- Every icon is not customized, such as ones that are business logos (OpenID, Plurk, etc).
+
+##
+
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/savwiley/DW-darkmode?style=social"> <br /><img alt="GitHub watchers" src="https://img.shields.io/github/watchers/savwiley/DW-darkmode?style=social"> 
+
+<a href="https://killthecake.dreamwidth.org/"><img alt="Donate" src="https://img.shields.io/badge/Dreamwidth-KillTheCake-e02482?style=for-the-badge"></a>
+
+<a href="https://ko-fi.com/linatrinch"><img alt="Donate" src="https://img.shields.io/badge/KoFi-Donate-FF5E5B?style=for-the-badge&logo=kofi"></a>
