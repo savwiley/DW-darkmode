@@ -72,6 +72,17 @@
     border-color: var(--lightAccent) !important;
   }
 
+  #content-outer h1,
+  #content-outer h2,
+  #content-outer h3,
+  #content-outer h4,
+  #content-outer h5,
+  #content-outer h6,
+  #content-outer p {
+    color: initial !important;
+    border-color: initial !important;
+  }
+
   blockquote {
     color: var(--headers);
   }
