@@ -209,30 +209,6 @@
   }
 
   /* ------ FORMS ------ */
-  input,
-  textarea,
-  select,
-  #panel-quickupdate input,
-  .nav-search input,
-  .nav-search select,
-  .nav-search input.button,
-  button.secondary,
-  .button.secondary,
-  button,
-  .button,
-  .btn,
-  input.submit,
-  .secondary.submit,
-  .select-list input,
-  .multiple-select,
-  #multiform_submit {
-    background: var(--input);
-    border: 1px solid var(--darkAccent);
-    color: var(--headers);
-    text-shadow: none;
-    box-shadow: none;
-  }
-
   label,
   #panel-quickupdate .contents label,
   legend {
@@ -288,6 +264,31 @@
     border-color: var(--link);
   }
 
+  input,
+  textarea,
+  select,
+  #panel-quickupdate input,
+  .nav-search input,
+  .nav-search input.button,
+  .nav-search select,
+  button.secondary,
+  .button.secondary,
+  button,
+  .button,
+  .btn,
+  input.submit,
+  .secondary.submit,
+  .select-list input,
+  .multiple-select,
+  #multiform_submit {
+    background: var(--input);
+    border: 1px solid var(--darkAccent);
+    color: var(--headers);
+    text-shadow: none;
+    box-shadow: none;
+  }
+
+  select:focus,
   button.secondary:hover,
   button.secondary:focus,
   .button.secondary:hover,
@@ -298,25 +299,22 @@
   .button:focus,
   .btn:focus,
   .btn:hover,
-  input.submit:hover,
-  .secondary.submit:hover,
   input.submit:focus,
+  input.submit:hover,
   .secondary.submit:focus,
+  .secondary.submit:hover,
   #multiform_submit:focus,
-  #multiform_submit:hover,
-  select:focus {
+  #multiform_submit:hover {
     background-color: var(--headers);
     color: var(--darkAccent)
   }
 
   /* ------ TABLES ------ */
-  table.table {
-    border-color: var(--lightAccent);
-  }
-
+  table.table,
   tr {
     border-color: var(--lightAccent) !important;
   }
+
   tr[bgcolor="#c0c0c0"] {
     background: var(--lightAccent);
     color: var(--headers);
@@ -335,6 +333,7 @@
     background: var(--background) !important;
     color: var(--text) !important;
   }
+
   .editfriends tr:hover {
     background: var(--dimBackground);
   }
@@ -357,11 +356,7 @@
     border-color: var(--lightAccent);
   }
 
-  .tablist .tab a.active {
-    background: var(--lightAccent);
-    border-color: var(--lightAccent);
-  }
-
+  .tablist .tab a.active,
   .tab-header,
   .action-bar {
     background: var(--lightAccent);
@@ -441,15 +436,16 @@
     background: var(--dimBackground);
   }
 
-  .section-nav li a,
   .section-nav ul,
   .section-nav li,
+  .section-nav li a,
   .section-nav-separator,
   .section-nav-content,
   .select-list li,
   .NotificationTable td {
     border-color: var(--lightAccent);
   }
+
   .section-nav-content {
     border-left: 1px solid var(--lightAccent);
   }
@@ -490,12 +486,12 @@
   }
 
   /* ------ INBOX ------ */
-  .folders a.selected {
-    background: var(--dimBackground);
+  .folders a {
     border-color: var(--lightAccent);
   }
 
-  .folders a {
+  .folders a.selected {
+    background: var(--dimBackground);
     border-color: var(--lightAccent);
   }
 
@@ -543,9 +539,8 @@
     border-color: var(--darkAccent);
   }
 
-  .main-nav,
-  .main-nav li.name,
-  .main-nav:not(.expanded) {
+  .main-nav:not(.expanded),
+  .main-nav li.name {
     background: var(--lightAccent);
     top: 7em;
     left: -5%;
@@ -571,20 +566,17 @@
   }
 
   .top-bar-section li:not(.has-form) a:not(.button),
-  nav ul li.topnav a {
-    background: var(--coloredListDot);
-  }
-
   .top-bar-section li:not(.has-form):hover a:not(.button):hover,
   .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button),
   .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button),
   .top-bar-section li:hover:not(.has-form) a:not(.button):not(.hover),
-  nav ul li.hover a {
+  nav ul li.topnav a,
+  nav ul li.hover {
     background: var(--coloredListDot);
   }
 
-  .top-bar-section .dropdown li:hover,
   .top-bar-section .dropdown li,
+  .top-bar-section .dropdown li:hover,
   nav ul li.hover a:hover {
     background: var(--bwListDot);
   }
@@ -595,17 +587,18 @@
     right: 310px;
     bottom: 20px;
     font-size: 3.5em;
-    font-family: var(--headerFont);
+    font-family: var(--headerFont), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     z-index: 2;
   }
+
   .row #logo::after {
     bottom: 0;
     right: 300px;
     color: var(--text);
   }
 
-  img[src*="dw_logo_purple.png"],
-  img[src*="dw_logo.png"] {
+  img[src*="dw_logo.png"],
+  img[src*="dw_logo_purple.png"] {
     position: relative;
     width: 300px;
     z-index: 3;
@@ -615,6 +608,7 @@
   #account-links {
     z-index: 3;
   }
+
   #account-links.row {
     top: 1em;
     right: 5%;
@@ -626,9 +620,11 @@
     text-align: center;
     border-bottom: 20px solid var(--darkAccent);
   }
+
   footer ul {
     margin-bottom: 5px;
   }
+
   footer ul li {
     float: none;
     display: inline-block;
@@ -637,7 +633,9 @@
   /* ------ BOXES ------ */
   .highlight,
   .highlight-box,
-  .action-box .inner {
+  .action-box .inner,
+  .alert-box.secondary,
+  .shop-item-highlight {
     background-color: var(--dimBackground);
     border: 1px solid var(--darkAccent);
     color: var(--headers);
@@ -650,9 +648,7 @@
   }
 
   .alert-box.secondary {
-    background: var(--dimBackground);
-    border-color: var(--darkAccent);
-    color: var(--headers);
+    border-width: initial;
     margin-right: 5%;
   }
 
@@ -663,9 +659,7 @@
   }
 
   .shop-item-highlight {
-    background: var(--dimBackground);
     border-color: var(--link);
-    color: var(--headers);
   }
 
   /* ------ NEW STYLE ONLY ------ */
@@ -690,16 +684,16 @@
     border-color: var(--dimBackground);
   }
 
-  .comment-depth-odd > .dwexpcomment .header,
-  .comment-depth-odd>.dwexpcomment .header .comment-info, 
-  .comment-depth-odd>.dwexpcomment .header .userpic {
+  .comment-depth-odd > .dwexpcomment .comment-wrapper:not(.screened) .header,
+  .comment-depth-odd > .dwexpcomment .comment-wrapper:not(.screened) .header .comment-info, 
+  .comment-depth-odd > .dwexpcomment .comment-wrapper:not(.screened) .header .userpic {
     background: var(--dimBackground);
     border-color: var(--lightAccent);
   }
 
-  .comment-depth-even > .dwexpcomment .header,
-  .comment-depth-even>.dwexpcomment .header .comment-info, 
-  .comment-depth-even>.dwexpcomment .header .userpic {
+  .comment-depth-even > .dwexpcomment .comment-wrapper:not(.screened) .header,
+  .comment-depth-even>.dwexpcomment .comment-wrapper:not(.screened) .header .comment-info, 
+  .comment-depth-even>.dwexpcomment .comment-wrapper:not(.screened) .header .userpic {
     background-color: var(--lightAccent);
     border-color: var(--text);
     color: var(--headers);
@@ -707,6 +701,7 @@
 
   .screened .header {
     background: var(--darkAccent) !important;
+    border-color: var(--lightAccent) !important;
   }
 
   .entry-interaction-links li:before,
@@ -772,13 +767,16 @@
   .ups_row1 {
     background: var(--lightAccent);
   }
+
   .ups_row2 {
     background: var(--dimBackground);
   }
+
   td.ups_cell {
     color: var(--headers);
     border: none;
   }
+
   td.ups_selected_cell {
     color: var(--background);
     border: none !important;
@@ -789,6 +787,7 @@
     background: var(--lightAccent);
     color: var(--headers);
   }
+
   #iconselector_icons_list li a {
     color: var(--link);
   }
@@ -797,9 +796,11 @@
   #iconselector_icons_list .iconselector_selected {
     border-color: var(--visited);
   }
+
   #iconselector_icons_list .iconselector_selected {
     background: var(--dimBackground);
   }
+
   .kwmenu .selected {
     background: var(--lightAccent);
     color: var(--headers);
@@ -809,9 +810,8 @@
 
   /* ------ MEDIA ------ */
   @media (max-width: 640px) {
-    .main-nav,
-    .main-nav li.name,
-    .main-nav:not(.expanded) {
+    .main-nav:not(.expanded),
+    .main-nav li.name {
       top: 4em;
     }
     #page #content .row:not(.collapse):first-child {
@@ -872,9 +872,8 @@
     #page #content .row {
       margin-left: inherit;
     }
-    .main-nav,
-    .main-nav li.name,
-    .main-nav:not(.expanded) {
+    .main-nav:not(.expanded),
+    .main-nav li.name {
       left: 0;
       right: 0;
     }
