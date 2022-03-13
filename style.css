@@ -431,6 +431,21 @@
     border-color: var(--lightAccent);
   }
 
+  .reveal-modal {
+    background: var(--dimBackground);
+    border-color: var(--lightAccent);
+  }
+
+  .reveal-modal a, 
+  .reveal-modal .close-reveal-modal {
+    color: var(--link);
+  }
+
+  .reveal-modal a:hover, 
+  .reveal-modal .close-reveal-modal:hover {
+    color: var(--hover);
+  }
+
   /* ------ SETTINGS ------ */
   .section-nav {
     background: var(--dimBackground);
@@ -670,11 +685,11 @@
   #page #content .row:not(.collapse):first-child {
     margin-top: 120px;
   }
-  #page #content form:not(.theme-form):not(.layout-form):not(#uploadPic):not[method="POST"] .row:first-child {
+  #page #content form:not(.theme-form):not(.layout-form):not(#uploadPic):not[method="POST"]:not(#qrform) .row:first-child {
     margin-top: 0px;
   }
 
-  #page #content form:not(.theme-form):not(.layout-form):not(#uploadPic):not[method="POST"] {
+  #page #content form:not(.theme-form):not(.layout-form):not(#uploadPic):not[method="POST"]:not(#qrform) {
     margin-left: 40px;
   }
 
@@ -837,13 +852,13 @@
     .row #logo::after {
       font-size: 3em;
     }
-    #page #content form:not(.theme-form):not(.layout-form):not(#uploadPic):not[method="POST"] {
+    #page #content form:not(.theme-form):not(.layout-form):not(#uploadPic):not[method="POST"]:not(#qrform) {
       margin-left: 70px;
     }
   }
 
   @media (max-width: 1025px) {
-    #page #content form:not(.theme-form):not(.layout-form):not(#uploadPic) {
+    #page #content form:not(.theme-form):not(.layout-form):not(#uploadPic):not(#qrform) {
       margin-left: 70px;
     }
   }
@@ -857,7 +872,7 @@
       width: 420px;
       height: 70px;
     }
-    #page #content form:not(.theme-form):not(.layout-form):not(#uploadPic):not[method="POST"] {
+    #page #content form:not(.theme-form):not(.layout-form):not(#uploadPic):not[method="POST"]:not(#qrform) {
       margin: 0 70px;
     }
     #account-links.row {
@@ -877,7 +892,7 @@
       left: 0;
       right: 0;
     }
-    #page #content form:not(.theme-form):not(.layout-form):not(#uploadPic):not[method="POST"] {
+    #page #content form:not(.theme-form):not(.layout-form):not(#uploadPic):not[method="POST"]:not(#qrform) {
       margin-left: 100px !important;
     }
   }
