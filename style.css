@@ -457,6 +457,20 @@
     color: var(--hover);
   }
 
+  .ui-widget-content, 
+  .ui-sortable {
+    border-color: var(--dimBackground);
+    background: var(--lightAccent);
+  }
+
+  .ui-state-default, 
+  .ui-widget-content .ui-state-default, 
+  .ui-widget-header .ui-state-default {
+    background: var(--dimBackground);
+    border-color: var(--darkAccent);
+    color: var(--text);
+  }
+
   /* ------ SETTINGS ------ */
   .section-nav {
     background: var(--dimBackground);
@@ -812,6 +826,7 @@
   .ui-widget-header {
     background: var(--lightAccent);
     color: var(--headers);
+    border-color: var(--dimBackground);
   }
 
   #iconselector_icons_list li a {
