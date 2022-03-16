@@ -85,7 +85,14 @@
   h4,
   h5,
   h6,
-  p {
+  p,
+  .usercontent h1,
+  .usercontent h2,
+  .usercontent h3,
+  .usercontent h4,
+  .usercontent h5,
+  .usercontent h6,
+  .usercontent p {
     color: var(--headers) !important;
     border-color: var(--lightAccent) !important;
   }
