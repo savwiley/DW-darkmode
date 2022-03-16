@@ -61,6 +61,24 @@
     color: var(--text);
   }
 
+  #content-outer h1,
+  #content-outer h2,
+  #content-outer h3,
+  #content-outer h4,
+  #content-outer h5,
+  #content-outer h6,
+  #content-outer p,
+  .entry-content h1,
+  .entry-content h2,
+  .entry-content h3,
+  .entry-content h4,
+  .entry-content h5,
+  .entry-content h6,
+  .entry-content p {
+    color: initial !important;
+    border-color: initial !important;
+  }
+
   h1,
   h2,
   h3,
@@ -70,17 +88,6 @@
   p {
     color: var(--headers) !important;
     border-color: var(--lightAccent) !important;
-  }
-
-  #content-outer h1,
-  #content-outer h2,
-  #content-outer h3,
-  #content-outer h4,
-  #content-outer h5,
-  #content-outer h6,
-  #content-outer p {
-    color: initial !important;
-    border-color: initial !important;
   }
 
   blockquote {
