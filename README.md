@@ -2,7 +2,9 @@
 
 <p align="center"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/savwiley/DW-darkmode?label=last%20update&style=flat-square"></p>
 
-<p align="center">A low contrast, dark site skin for <a href="https://www.dreamwidth.org/">Dreamwidth</a>. Made with <a href="https://github.com/openstyles/stylus">Stylus</a>. <b>(WIP)</b></p>
+<p align="center"><img src="https://images.plurk.com/6Wsct1JK3PgCyqqxkfE9eL.png" style="width: 700px"></p>
+
+<p align="center">A low contrast, dark site skin for <a href="https://www.dreamwidth.org/">Dreamwidth</a>. Made with <a href="https://github.com/openstyles/stylus">Stylus</a>.</p>
 
 ## Want to test drive it and leave feedback?
 
