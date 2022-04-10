@@ -75,8 +75,8 @@
   .entry-content h5,
   .entry-content h6,
   .entry-content p {
-    color: initial !important;
-    border-color: initial !important;
+    color: inherit !important;
+    border-color: inherit !important;
   }
 
   h1,
@@ -102,7 +102,7 @@
   }
 
   blockquote > font {
-    color: initial;
+    color: inherit;
   }
 
   .contents,
@@ -724,7 +724,7 @@
   }
 
   .alert-box.secondary {
-    border-width: initial;
+    border-width: inherit;
     margin-right: 5%;
   }
 
