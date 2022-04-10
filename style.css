@@ -805,7 +805,8 @@
     border-color: var(--lightAccent);
   }
 
-  .latest-entry.usercontent > .header {
+  .latest-entry.usercontent > .header,
+  .entry .header {
     background: var(--dimBackground);
   }
 
