@@ -812,7 +812,7 @@
 
   .latest-entry.usercontent > .header,
   .entry .header {
-    background: var(--skin-dimBackground);
+    background: inherit;
   }
 
   /* ------ POST AN ENTRY ------ */
