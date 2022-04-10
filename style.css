@@ -340,6 +340,15 @@
     color: var(--darkAccent)
   }
 
+  .submit.disabled, 
+  .submit[disabled],
+  .submit.disabled:hover, 
+  .submit[disabled]:hover {
+    background-color: var(--lightAccent);
+    border-color: var(--headers);
+    color: var(--headers);
+  }
+
   /* ------ TABLES ------ */
   table.table,
   tr {
@@ -770,7 +779,9 @@
     color: var(--headers);
   }
 
-  .screened .header {
+  .screened .header,
+  .comment-wrapper.screened>.comment .header .comment-info, 
+  .comment-wrapper.screened>.comment .header .userpic {
     background: var(--darkAccent) !important;
     border-color: var(--lightAccent) !important;
   }
