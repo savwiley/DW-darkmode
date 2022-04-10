@@ -2,55 +2,55 @@
   @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
 
   :root {
-    --background: #191b1c;
-    --dimBackground: #232828;
-    --text: #9fa0a1;
-    --input: #252628;
+    --skin-background: #191b1c;
+    --skin-dimBackground: #232828;
+    --skin-text: #9fa0a1;
+    --skin-input: #252628;
 
-    --headers: #d4d2d2;
+    --skin-headers: #d4d2d2;
 
-    --link: #88d0f9;
-    --visited: #5babc1;
-    --hover: #ccf2ff;
+    --skin-link: #88d0f9;
+    --skin-visited: #5babc1;
+    --skin-hover: #ccf2ff;
 
-    --lightAccent: #4b4d4f;
-    --darkAccent: #121315;
+    --skin-lightAccent: #4b4d4f;
+    --skin-darkAccent: #121315;
 
-    --headerFont: 'Cinzel Decorative', cursive;
+    --skin-headerFont: 'Cinzel Decorative', cursive;
 
-    --userIcon: url(https://img.icons8.com/ultraviolet/15/000000/comet.png) no-repeat !important;
-    --communityIcon: url(https://img.icons8.com/ultraviolet/14/000000/globe.png) no-repeat !important;
-    --staffIcon: url(https://img.icons8.com/ultraviolet/14/000000/geography.png) no-repeat !important;
-    --anonIcon: url(https://img.icons8.com/ultraviolet/16/000000/fraud.png) no-repeat !important;
+    --skin-userIcon: url(https://img.icons8.com/ultraviolet/15/000000/comet.png) no-repeat !important;
+    --skin-communityIcon: url(https://img.icons8.com/ultraviolet/14/000000/globe.png) no-repeat !important;
+    --skin-staffIcon: url(https://img.icons8.com/ultraviolet/14/000000/geography.png) no-repeat !important;
+    --skin-anonIcon: url(https://img.icons8.com/ultraviolet/16/000000/fraud.png) no-repeat !important;
 
-    --editIcon: url(https://img.icons8.com/ultraviolet/16/000000/edit-property.png) no-repeat !important;
-    --editTagIcon: url(https://img.icons8.com/ultraviolet/16/000000/add-tag.png) no-repeat !important;
-    --addMemoryIcon: url(https://img.icons8.com/ultraviolet/17/000000/romance.png) no-repeat !important;
-    --shareIcon: url(https://img.icons8.com/ultraviolet/16/000000/send.png) no-repeat !important;
-    --trackIcon: url(https://img.icons8.com/ultraviolet/16/000000/notification.png) no-repeat !important;
-    --stopTrackIcon: url(https://img.icons8.com/ultraviolet/16/000000/no-reminders.png) no-repeat !important;
-    --addTagsIcon: url(https://img.icons8.com/ultraviolet/14/000000/plus.png) no-repeat !important;
-    --trashIcon: url(https://img.icons8.com/ultraviolet/14/000000/trash-can.png) no-repeat !important;
-    --deleteIcon: url(https://img.icons8.com/ultraviolet/14/000000/cancel.png) no-repeat !important;
-    --screenIcon: url(https://img.icons8.com/ultraviolet/16/000000/no-idea.png) no-repeat !important;
-    --unscreenIcon: url(https://img.icons8.com/ultraviolet/16/000000/light-on.png) no-repeat !important;
-    --freezeIcon: url(https://img.icons8.com/ultraviolet/15/000000/pause-button.png) no-repeat !important;
+    --skin-editIcon: url(https://img.icons8.com/ultraviolet/16/000000/edit-property.png) no-repeat !important;
+    --skin-editTagIcon: url(https://img.icons8.com/ultraviolet/16/000000/add-tag.png) no-repeat !important;
+    --skin-addMemoryIcon: url(https://img.icons8.com/ultraviolet/17/000000/romance.png) no-repeat !important;
+    --skin-shareIcon: url(https://img.icons8.com/ultraviolet/16/000000/send.png) no-repeat !important;
+    --skin-trackIcon: url(https://img.icons8.com/ultraviolet/16/000000/notification.png) no-repeat !important;
+    --skin-stopTrackIcon: url(https://img.icons8.com/ultraviolet/16/000000/no-reminders.png) no-repeat !important;
+    --skin-addTagsIcon: url(https://img.icons8.com/ultraviolet/14/000000/plus.png) no-repeat !important;
+    --skin-trashIcon: url(https://img.icons8.com/ultraviolet/14/000000/trash-can.png) no-repeat !important;
+    --skin-deleteIcon: url(https://img.icons8.com/ultraviolet/14/000000/cancel.png) no-repeat !important;
+    --skin-screenIcon: url(https://img.icons8.com/ultraviolet/16/000000/no-idea.png) no-repeat !important;
+    --skin-unscreenIcon: url(https://img.icons8.com/ultraviolet/16/000000/light-on.png) no-repeat !important;
+    --skin-freezeIcon: url(https://img.icons8.com/ultraviolet/15/000000/pause-button.png) no-repeat !important;
 
-    --coloredListDot: var(--lightAccent) url(https://img.icons8.com/officel/11/000000/spinner-frame-2.png) 0.8em 0.9em no-repeat;
-    --bwListDot: var(--visited) url(https://img.icons8.com/ios/11/000000/spinner-frame-2.png) 0.8em 0.9em no-repeat;
+    --skin-coloredListDot: var(--skin-lightAccent) url(https://img.icons8.com/officel/11/000000/spinner-frame-2.png) 0.8em 0.9em no-repeat;
+    --skin-bwListDot: var(--skin-visited) url(https://img.icons8.com/ios/11/000000/spinner-frame-2.png) 0.8em 0.9em no-repeat;
 
-    --arrowDown: url(https://img.icons8.com/ultraviolet/14/000000/chevron-down.png);
-    --arrowRight: url(https://img.icons8.com/ultraviolet/14/000000/chevron-right.png);
+    --skin-arrowDown: url(https://img.icons8.com/ultraviolet/14/000000/chevron-down.png);
+    --skin-arrowRight: url(https://img.icons8.com/ultraviolet/14/000000/chevron-right.png);
   }
 
   /* ------ GENERAL ------ */
   body:not(.has-navstrip):not(.lj-view-recent):not(.lj-view-archive):not(.lj-view-read):not(.lj-view-tags) {
     min-height: 100vh;
-    background: var(--background);
+    background: var(--skin-background);
   }
 
   #canvas {
-    border-color: var(--darkAccent);
+    border-color: var(--skin-darkAccent);
     border-bottom: none;
   }
 
@@ -58,7 +58,7 @@
     position: absolute;
     left: 5%;
     right: 5%;
-    color: var(--text);
+    color: var(--skin-text);
   }
 
   #content-outer h1,
@@ -93,12 +93,12 @@
   .usercontent h5,
   .usercontent h6,
   .usercontent p {
-    color: var(--headers) !important;
-    border-color: var(--lightAccent) !important;
+    color: var(--skin-headers) !important;
+    border-color: var(--skin-lightAccent) !important;
   }
 
   blockquote {
-    color: var(--headers);
+    color: var(--skin-headers);
   }
 
   blockquote > font {
@@ -109,23 +109,23 @@
   .panel,
   .sidebar,
   .item {
-    border-color: var(--lightAccent) !important;
+    border-color: var(--skin-lightAccent) !important;
   }
 
   .disabled {
-    background-color: var(--lightAccent) !important;
+    background-color: var(--skin-lightAccent) !important;
   }
 
   #page a:link,
   a.half_image,
   a.no_meta_text {
-    color: var(--link);
+    color: var(--skin-link);
   }
   #page a:visited {
-    color: var(--visited);
+    color: var(--skin-visited);
   }
   #page a:hover {
-    color: var(--hover);
+    color: var(--skin-hover);
   }
 
   img {
@@ -133,9 +133,9 @@
   }
 
   code {
-    background: var(--dimBackground);
-    color: var(--headers);
-    border-color: var(--text);
+    background: var(--skin-dimBackground);
+    color: var(--skin-headers);
+    border-color: var(--skin-text);
   }
 
   /*  ------ ICONS REPLACEMENTS ------ */
@@ -160,91 +160,91 @@
   }
 
   img[src*="community.png"] {
-    background: var(--communityIcon);
+    background: var(--skin-communityIcon);
     padding: 15px 16px 0 0 !important;
   }
   img[src*="user.png"] {
-    background: var(--userIcon);
+    background: var(--skin-userIcon);
     padding: 15px 15px 0 0 !important;
   }
   img[src*="anonymous.png"] {
-    background: var(--anonIcon);
+    background: var(--skin-anonIcon);
     padding: 15px 15px 0 0 !important;
   }
   img[src*="comm_staff.png"] {
-    background: var(--staffIcon);
+    background: var(--skin-staffIcon);
     padding: 15px 18px 0 0 !important;
   }
   img[src*="edit.png"] {
-    background: var(--editIcon);
+    background: var(--skin-editIcon);
     padding: 15px 18px 0 0 !important;
   }
   img[src*="tag_edit.png"] {
-    background: var(--editTagIcon);
+    background: var(--skin-editTagIcon);
     padding: 15px 18px 0 0 !important;
   }
   img[src*="memories_add.png"] {
-    background: var(--addMemoryIcon);
+    background: var(--skin-addMemoryIcon);
     padding: 15px 18px 0 0 !important;
   }
   img[src*="tellafriend.png"] {
-    background: var(--shareIcon);
+    background: var(--skin-shareIcon);
     padding: 15px 17px 0 0 !important;
   }
   img[src*="track.png"] {
-    background: var(--trackIcon);
+    background: var(--skin-trackIcon);
     padding: 15px 15px 0 0 !important;
   }
   img[src*="untrack.png"] {
-    background: var(--stopTrackIcon);
+    background: var(--skin-stopTrackIcon);
     padding: 15px 15px 0 0 !important;
     transform: rotate(20deg);
   }
   img[src*="btn_trash.gif"] {
-    background: var(--trashIcon);
+    background: var(--skin-trashIcon);
     padding: 15px 14px 0 0 !important;
   }
   img[src*="delete.png"] {
-    background: var(--deleteIcon);
+    background: var(--skin-deleteIcon);
     padding: 15px 14px 0 0 !important;
   }
   img[src*="screen.png"] {
-    background: var(--screenIcon);
+    background: var(--skin-screenIcon);
     padding: 15px 14px 0 0 !important;
   }
   img[src*="unscreen.png"] {
-    background: var(--unscreenIcon);
+    background: var(--skin-unscreenIcon);
     padding: 15px 14px 0 0 !important;
   }
   img[src*="freeze.png"] {
-    background: var(--freezeIcon);
+    background: var(--skin-freezeIcon);
     padding: 15px 14px 0 0 !important;
   }
   input[src*="add.png"] {
-    background: var(--addTagsIcon);
+    background: var(--skin-addTagsIcon);
     padding: 15px 14px 0 0 !important;
   }
 
   .collapsible.collapsed .collapse-button {
-    background-image: var(--arrowRight);
+    background-image: var(--skin-arrowRight);
   }
 
   .collapsible.expanded .collapse-button {
-    background-image: var(--arrowDown);
+    background-image: var(--skin-arrowDown);
   }
 
   /* ------ FORMS ------ */
   label,
   #panel-quickupdate .contents label,
   legend {
-    color: var(--headers);
+    color: var(--skin-headers);
   }
 
   span.postfix,
   label.postfix {
-    background: var(--dimBackground);
-    color: var(--headers);
-    border-color: var(--darkAccent);
+    background: var(--skin-dimBackground);
+    color: var(--skin-headers);
+    border-color: var(--skin-darkAccent);
   }
 
   input:not([type]),
@@ -263,9 +263,9 @@
   input[type="url"],
   input[type="color"],
   textarea {
-    background: var(--input);
-    color: var(--headers);
-    border: 1px solid var(--darkAccent);
+    background: var(--skin-input);
+    color: var(--skin-headers);
+    border: 1px solid var(--skin-darkAccent);
   }
 
   input:not([type]):focus,
@@ -284,9 +284,9 @@
   input[type="url"]:focus,
   input[type="color"]:focus,
   textarea:focus {
-    background: var(--darkAccent);
+    background: var(--skin-darkAccent);
     box-shadow: none;
-    border-color: var(--link);
+    border-color: var(--skin-link);
   }
 
   input,
@@ -308,9 +308,9 @@
   .select-list input,
   .multiple-select,
   #multiform_submit {
-    background: var(--input);
-    border: 1px solid var(--darkAccent);
-    color: var(--headers);
+    background: var(--skin-input);
+    border: 1px solid var(--skin-darkAccent);
+    color: var(--skin-headers);
     text-shadow: none;
     box-shadow: none;
   }
@@ -336,46 +336,46 @@
   .secondary.submit:hover,
   #multiform_submit:focus,
   #multiform_submit:hover {
-    background-color: var(--headers);
-    color: var(--darkAccent)
+    background-color: var(--skin-headers);
+    color: var(--skin-darkAccent)
   }
 
   .submit.disabled, 
   .submit[disabled],
   .submit.disabled:hover, 
   .submit[disabled]:hover {
-    background-color: var(--lightAccent);
-    border-color: var(--headers);
-    color: var(--headers);
+    background-color: var(--skin-lightAccent);
+    border-color: var(--skin-headers);
+    color: var(--skin-headers);
   }
 
   /* ------ TABLES ------ */
   table.table,
   tr {
-    border-color: var(--lightAccent) !important;
+    border-color: var(--skin-lightAccent) !important;
   }
 
   tr[bgcolor="#c0c0c0"] {
-    background: var(--lightAccent);
-    color: var(--headers);
+    background: var(--skin-lightAccent);
+    color: var(--skin-headers);
   }
 
   table.grid, 
   table.grid td {
-    color: var(--text);
+    color: var(--skin-text);
   }
 
   table caption {
-    color: var(--headers);
+    color: var(--skin-headers);
   }
 
   .editfriends td[style="color: #000000; background-color: #ffffff;"] {
-    background: var(--background) !important;
-    color: var(--text) !important;
+    background: var(--skin-background) !important;
+    color: var(--skin-text) !important;
   }
 
   .editfriends tr:hover {
-    background: var(--dimBackground);
+    background: var(--skin-dimBackground);
   }
 
   form#settings_form.table-form {
@@ -392,25 +392,25 @@
   }
 
   #page .tab a:not(.active) {
-    background: var(--dimBackground);
-    border-color: var(--lightAccent);
+    background: var(--skin-dimBackground);
+    border-color: var(--skin-lightAccent);
   }
 
   .tablist .tab a.active,
   .tab-header,
   .action-bar {
-    background: var(--lightAccent);
-    border-color: var(--lightAccent);
+    background: var(--skin-lightAccent);
+    border-color: var(--skin-lightAccent);
   }
 
   .shortcuts > .table-form table {
     width: 100%;
-    border-bottom: 1px solid var(--darkAccent);
+    border-bottom: 1px solid var(--skin-darkAccent);
   }
 
   .table-form table {
-    background: var(--dimBackground);
-    color: var(--headers);
+    background: var(--skin-dimBackground);
+    color: var(--skin-headers);
   }
 
   .odd,
@@ -418,8 +418,8 @@
   tr.odd td,
   table.table tr.odd,
   table.table tr:nth-of-type(odd) {
-    background: var(--dimBackground);
-    color: var(--headers);
+    background: var(--skin-dimBackground);
+    color: var(--skin-headers);
   }
 
   .even,
@@ -427,8 +427,8 @@
   tr.even td,
   table.table tr.even,
   table.table tr:nth-of-type(even) {
-    background: var(--lightAccent);
-    color: var(--headers);
+    background: var(--skin-lightAccent);
+    color: var(--skin-headers);
   }
 
   thead th,
@@ -437,79 +437,79 @@
   .column-table tbody th,
   table.table thead tr th,
   table.table thead tr td {
-    background: var(--dimBackground);
-    color: var(--headers);
-    border-color: var(--lightAccent);
+    background: var(--skin-dimBackground);
+    color: var(--skin-headers);
+    border-color: var(--skin-lightAccent);
   }
 
   table.table tr th,
   table.table tr td {
-    color: var(--headers);
+    color: var(--skin-headers);
   }
 
   /*  ------ MODALS ------ */
   .ContextualPopup {
-    background: var(--dimBackground);
+    background: var(--skin-dimBackground);
     box-shadow: none;
-    border: 1px solid var(--lightAccent);
-    color: var(--headers);
+    border: 1px solid var(--skin-lightAccent);
+    color: var(--skin-headers);
   }
 
   .ContextualPopup a {
-    color: var(--link);
+    color: var(--skin-link);
   }
 
   .ContextualPopup a:hover {
-    color: var(--hover);
+    color: var(--skin-hover);
   }
 
   .ContextualPopup a:visited {
-    color: var(--visited);
+    color: var(--skin-visited);
   }
 
   .ContextualPopup .Userpic {
-    border-color: var(--lightAccent);
+    border-color: var(--skin-lightAccent);
   }
 
   .reveal-modal {
-    background: var(--dimBackground);
-    border-color: var(--lightAccent);
+    background: var(--skin-dimBackground);
+    border-color: var(--skin-lightAccent);
   }
 
   .reveal-modal a, 
   .reveal-modal .close-reveal-modal {
-    color: var(--link);
+    color: var(--skin-link);
   }
 
   .reveal-modal a:hover, 
   .reveal-modal .close-reveal-modal:hover {
-    color: var(--hover);
+    color: var(--skin-hover);
   }
 
   .ui-widget-content, 
   .ui-sortable {
-    border-color: var(--dimBackground);
-    background: var(--lightAccent);
+    border-color: var(--skin-dimBackground);
+    background: var(--skin-lightAccent);
   }
 
   .ui-state-default, 
   .ui-widget-content .ui-state-default, 
   .ui-widget-header .ui-state-default {
-    background: var(--dimBackground);
-    border-color: var(--darkAccent);
-    color: var(--text);
+    background: var(--skin-dimBackground);
+    border-color: var(--skin-darkAccent);
+    color: var(--skin-text);
   }
 
   /* ------ LOGGED OUT BLURB ------ */
 
   #intro-main-content h1,
   #intro-main-content p {
-    color: var(--background) !important;
+    color: var(--skin-background) !important;
   }
 
   /* ------ SETTINGS ------ */
   .section-nav {
-    background: var(--dimBackground);
+    background: var(--skin-dimBackground);
   }
 
   .section-nav ul,
@@ -519,66 +519,66 @@
   .section-nav-content,
   .select-list li,
   .NotificationTable td {
-    border-color: var(--lightAccent);
+    border-color: var(--skin-lightAccent);
   }
 
   .section-nav-content {
-    border-left: 1px solid var(--lightAccent);
+    border-left: 1px solid var(--skin-lightAccent);
   }
 
   .section-nav li.on {
-    background: var(--lightAccent);
+    background: var(--skin-lightAccent);
   }
 
   .select-list li img {
-    border-color: var(--link)
+    border-color: var(--skin-link)
   }
 
   hr.hr {
-    color: var(--lightAccent);
-    background-color: var(--lightAccent);
+    color: var(--skin-lightAccent);
+    background-color: var(--skin-lightAccent);
   }
 
   .selected,
   .select-list li.selected,
   tr.selected td {
-    background: var(--dimBackground);
-    border-color: var(--link);
-    color: var(--headers);
+    background: var(--skin-dimBackground);
+    border-color: var(--skin-link);
+    color: var(--skin-headers);
   }
 
   .subheader {
-    background: var(--lightAccent);
-    color: var(--headers)
+    background: var(--skin-lightAccent);
+    color: var(--skin-headers)
   }
 
   #cf-select,
   #cf-edit,
   #cf-filtopts,
   #cf-intro {
-    background: var(--dimBackground);
-    border-color: var(--lightAccent);
-    color: var(--headers);
+    background: var(--skin-dimBackground);
+    border-color: var(--skin-lightAccent);
+    color: var(--skin-headers);
   }
 
   /* ------ INBOX ------ */
   .folders a {
-    border-color: var(--lightAccent);
+    border-color: var(--skin-lightAccent);
   }
 
   .folders a.selected {
-    background: var(--dimBackground);
-    border-color: var(--lightAccent);
+    background: var(--skin-dimBackground);
+    border-color: var(--skin-lightAccent);
   }
 
   .folders a:hover {
-    background: var(--lightAccent);
-    border-color: var(--lightAccent);
+    background: var(--skin-lightAccent);
+    border-color: var(--skin-lightAccent);
   }
 
   .inbox .header {
-    background: var(--lightAccent);
-    color: var(--headers);
+    background: var(--skin-lightAccent);
+    color: var(--skin-headers);
   }
 
   /* ------ PROFILE ------ */
@@ -586,38 +586,38 @@
   .section,
   div.username,
   .actions li {
-    background-color: var(--dimBackground);
+    background-color: var(--skin-dimBackground);
     border-style: solid;
-    border-color: var(--lightAccent);
-    color: var(--headers);
+    border-color: var(--skin-lightAccent);
+    color: var(--skin-headers);
   }
 
   .profile th,
   .section span.section_link,
   .helper {
-    color: var(--headers);
+    color: var(--skin-headers);
   }
 
   .field_block .field_name {
-    background: var(--dimBackground);
-    border-right: 1px solid var(--lightAccent);
-    color: var(--headers);
+    background: var(--skin-dimBackground);
+    border-right: 1px solid var(--skin-lightAccent);
+    color: var(--skin-headers);
   }
 
   span.expandcollapse a,
   .section {
-    color: var(--link);
+    color: var(--skin-link);
   }
 
   /* ------ HEADER ------ */
   #masthead:not([role="banner"]) {
-    background: var(--dimBackground);
-    border-color: var(--darkAccent);
+    background: var(--skin-dimBackground);
+    border-color: var(--skin-darkAccent);
   }
 
   .main-nav:not(.expanded),
   .main-nav li.name {
-    background: var(--lightAccent);
+    background: var(--skin-lightAccent);
     top: 7em;
     left: -5%;
     right: -5%;
@@ -626,19 +626,19 @@
 
   .top-bar-section .has-form,
   .top-bar-section ul li {
-    background: var(--lightAccent);
+    background: var(--skin-lightAccent);
   }
 
   #shim-alpha {
-    background: var(--dimBackground);
-    border-top: 0.5em solid var(--lightAccent);
-    border-bottom: 0.5em solid var(--darkAccent);
+    background: var(--skin-dimBackground);
+    border-top: 0.5em solid var(--skin-lightAccent);
+    border-bottom: 0.5em solid var(--skin-darkAccent);
     position: absolute;
     z-index: 0;
   }
 
   nav {
-    background: var(--lightAccent);
+    background: var(--skin-lightAccent);
   }
 
   .top-bar-section li:not(.has-form) a:not(.button),
@@ -648,13 +648,13 @@
   .top-bar-section li:hover:not(.has-form) a:not(.button):not(.hover),
   nav ul li.topnav a,
   nav ul li.hover {
-    background: var(--coloredListDot);
+    background: var(--skin-coloredListDot);
   }
 
   .top-bar-section .dropdown li,
   .top-bar-section .dropdown li:hover,
   nav ul li.hover a:hover {
-    background: var(--bwListDot);
+    background: var(--skin-bwListDot);
   }
 
   #logo::after {
@@ -663,14 +663,14 @@
     right: 310px;
     bottom: 20px;
     font-size: 3.5em;
-    font-family: var(--headerFont), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: var(--skin-headerFont), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     z-index: 2;
   }
 
   .row #logo::after {
     bottom: 0;
     right: 300px;
-    color: var(--text);
+    color: var(--skin-text);
   }
 
   img[src*="dw_logo.png"],
@@ -692,9 +692,9 @@
 
   /* ------ FOOTER ------ */
   footer[role="contentinfo"] {
-    background: var(--lightAccent);
+    background: var(--skin-lightAccent);
     text-align: center;
-    border-bottom: 20px solid var(--darkAccent);
+    border-bottom: 20px solid var(--skin-darkAccent);
   }
 
   footer ul {
@@ -712,15 +712,15 @@
   .action-box .inner,
   .alert-box.secondary,
   .shop-item-highlight {
-    background-color: var(--dimBackground);
-    border: 1px solid var(--darkAccent);
-    color: var(--headers);
+    background-color: var(--skin-dimBackground);
+    border: 1px solid var(--skin-darkAccent);
+    color: var(--skin-headers);
   }
 
   .inset-box {
-    background-color: var(--input);
+    background-color: var(--skin-input);
     border: none;
-    color: var(--headers);
+    color: var(--skin-headers);
   }
 
   .alert-box.secondary {
@@ -730,22 +730,22 @@
 
   span.error,
   small.error {
-    background: var(--lightAccent);
-    color: var(--link);
+    background: var(--skin-lightAccent);
+    color: var(--skin-link);
   }
 
   .shop-item-highlight {
-    border-color: var(--link);
+    border-color: var(--skin-link);
   }
 
   .panel.callout {
-    background: var(--dimBackground);
+    background: var(--skin-dimBackground);
   }
 
   /* ------ NEW STYLE ONLY ------ */
   #page #content .row {
     margin-left: -40px;
-    background: var(--background);
+    background: var(--skin-background);
   }
   #page #content .row:not(.collapse):first-child {
     margin-top: 120px;
@@ -760,30 +760,30 @@
 
   /* ------ ENTRIES ------ */
   .comment-page-list {
-    background-color: var(--background);
-    border-color: var(--dimBackground);
+    background-color: var(--skin-background);
+    border-color: var(--skin-dimBackground);
   }
 
   .comment-depth-odd > .dwexpcomment .comment-wrapper:not(.screened) .header,
   .comment-depth-odd > .dwexpcomment .comment-wrapper:not(.screened) .header .comment-info, 
   .comment-depth-odd > .dwexpcomment .comment-wrapper:not(.screened) .header .userpic {
-    background: var(--dimBackground);
-    border-color: var(--lightAccent);
+    background: var(--skin-dimBackground);
+    border-color: var(--skin-lightAccent);
   }
 
   .comment-depth-even > .dwexpcomment .comment-wrapper:not(.screened) .header,
   .comment-depth-even>.dwexpcomment .comment-wrapper:not(.screened) .header .comment-info, 
   .comment-depth-even>.dwexpcomment .comment-wrapper:not(.screened) .header .userpic {
-    background-color: var(--lightAccent);
-    border-color: var(--text);
-    color: var(--headers);
+    background-color: var(--skin-lightAccent);
+    border-color: var(--skin-text);
+    color: var(--skin-headers);
   }
 
   .screened .header,
   .comment-wrapper.screened>.comment .header .comment-info, 
   .comment-wrapper.screened>.comment .header .userpic {
-    background: var(--darkAccent) !important;
-    border-color: var(--lightAccent) !important;
+    background: var(--skin-darkAccent) !important;
+    border-color: var(--skin-lightAccent) !important;
   }
 
   .entry-interaction-links li:before,
@@ -798,21 +798,21 @@
   .view-threaded:after,
   .view-top-only:after,
   .expand_all:after {
-    color: var(--text);
+    color: var(--skin-text);
   }
 
   .latest-entry.usercontent {
-    border-color: var(--lightAccent);
+    border-color: var(--skin-lightAccent);
   }
 
   .latest-entry.usercontent > .header,
   .entry .header {
-    background: var(--dimBackground);
+    background: var(--skin-dimBackground);
   }
 
   /* ------ POST AN ENTRY ------ */
   #compose-entry {
-    border-color: var(--lightAccent);
+    border-color: var(--skin-lightAccent);
   }
 
   #htmltools,
@@ -823,14 +823,14 @@
   #options,
   #public,
   #submitbar {
-    background: var(--dimBackground);
-    border-color: var(--lightAccent);
+    background: var(--skin-dimBackground);
+    border-color: var(--skin-lightAccent);
   }
 
   /* ------ ICON SELECTOR MODAL ------ */
   div.lj_ippu,
   .iconselector {
-    background: var(--background);
+    background: var(--skin-background);
   }
 
   .iconselector_searchbox,
@@ -838,57 +838,57 @@
   .image-text-toggle .toggle-meta-on,
   .image-size-toggle.half_icons .toggle-half-image,
   .image-size-toggle .toggle-full-image {
-    color: var(--text);
+    color: var(--skin-text);
   }
 
   div.ups_search,
   div.ups_closebuttonarea {
-    background: var(--darkAccent);
-    color: var(--text);
+    background: var(--skin-darkAccent);
+    color: var(--skin-text);
   }
 
   .ups_row1 {
-    background: var(--lightAccent);
+    background: var(--skin-lightAccent);
   }
 
   .ups_row2 {
-    background: var(--dimBackground);
+    background: var(--skin-dimBackground);
   }
 
   td.ups_cell {
-    color: var(--headers);
+    color: var(--skin-headers);
     border: none;
   }
 
   td.ups_selected_cell {
-    color: var(--background);
+    color: var(--skin-background);
     border: none !important;
   }
 
   #iconselector_icons_list li,
   .ui-widget-header {
-    background: var(--lightAccent);
-    color: var(--headers);
-    border-color: var(--dimBackground);
+    background: var(--skin-lightAccent);
+    color: var(--skin-headers);
+    border-color: var(--skin-dimBackground);
   }
 
   #iconselector_icons_list li a {
-    color: var(--link);
+    color: var(--skin-link);
   }
 
   #iconselector_icons_list li:hover,
   #iconselector_icons_list .iconselector_selected {
-    border-color: var(--visited);
+    border-color: var(--skin-visited);
   }
 
   #iconselector_icons_list .iconselector_selected {
-    background: var(--dimBackground);
+    background: var(--skin-dimBackground);
   }
 
   .kwmenu .selected {
-    background: var(--lightAccent);
-    color: var(--headers);
-    border-color: var(--visited);
+    background: var(--skin-lightAccent);
+    color: var(--skin-headers);
+    border-color: var(--skin-visited);
     font-weight: normal;
   }
 
@@ -968,7 +968,7 @@
 
   @media only screen and (min-width: 40.0625em) {
     .top-bar-section .has-dropdown>a:after {
-      border-color: var(--darkAccent) transparent transparent transparent;
+      border-color: var(--skin-darkAccent) transparent transparent transparent;
     }
   }
 }
