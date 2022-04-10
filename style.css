@@ -491,13 +491,6 @@
     color: var(--text);
   }
 
-  /* ------ LOGGED OUT BLURB ------ */
-
-  #intro-main-content h1,
-  #intro-main-content p {
-    color: var(--background) !important;
-  }
-
   /* ------ SETTINGS ------ */
   .section-nav {
     background: var(--dimBackground);
