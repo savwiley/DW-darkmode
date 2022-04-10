@@ -8,14 +8,17 @@
 
 ## Want to test drive it and leave feedback?
 
-1. Install Stylus as a browser extension. Visit the [wiki](https://github.com/openstyles/stylus/wiki) if you have any problems here. [[Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)] [[Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)] [[Opera](https://addons.opera.com/en/extensions/details/stylus/)] (Alternatively, you can use any other program that lets you add custom skins to a site.)
-2. Once it's installed and you have the extension open, click "Write New Style." Copy/paste the contents of `style.css` into the code editor. [Here is the raw code.](https://raw.githubusercontent.com/savwiley/DW-darkmode/main/style.css)
-3. Save and make sure the "Enabled" checkbox is clicked.
-4. Spot something wrong? [Leave feedback](https://github.com/savwiley/DW-darkmode/issues) for me in the Issues.
+1. Make sure to apply one of the "Tropospherical" site skin default styles under your [display settings](https://www.dreamwidth.org/manage/settings/?cat=display).
+2. Install Stylus as a browser extension. Visit the [wiki](https://github.com/openstyles/stylus/wiki) if you have any problems here. [[Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)] [[Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)] [[Opera](https://addons.opera.com/en/extensions/details/stylus/)] (Alternatively, you can use any other program that lets you add custom skins to a site.)
+3. Once it's installed and you have the extension open, click "Write New Style." Copy/paste the contents of `style.css` into the code editor. [Here is the raw code.](https://raw.githubusercontent.com/savwiley/DW-darkmode/main/style.css)
+4. Save and make sure the "Enabled" checkbox is clicked.
+5. Spot something wrong? [Leave feedback](https://github.com/savwiley/DW-darkmode/issues) for me in the Issues.
 
 ## Troubleshooting
 
 - Is nothing changing? Make sure the extension has full access to change any site in your browser.
+- This skin is compatable with [Dreamwidth for Widescreen](https://userstyles.org/styles/30671/dreamwidth-for-widescreen) but you have to edit a portion of the code. Ctrl+F for `#page` around line 56 & remove `left: 5%; right: 5%;`. If this doesn't work for you, let me know!
+- If you have other skins installed, this one may not work unless you turn those off. However, if you let me know about any conflicts going on, I can try to make it compatible with those as well.
 
 ## Notes
 
