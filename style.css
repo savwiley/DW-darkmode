@@ -1,4 +1,9 @@
 @-moz-document domain("dreamwidth.org") {
+  /*
+  VERSION: v1.2.0
+  AUTHOR: KillTheCake
+  NOTES: Check for latest versions! https://github.com/savwiley/DW-darkmode
+  */
   @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
 
   :root {
