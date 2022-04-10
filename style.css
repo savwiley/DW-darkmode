@@ -729,6 +729,10 @@
     border-color: var(--link);
   }
 
+  .panel.callout {
+    background: var(--dimBackground);
+  }
+
   /* ------ NEW STYLE ONLY ------ */
   #page #content .row {
     margin-left: -40px;
