@@ -1,6 +1,6 @@
 @-moz-document domain("dreamwidth.org") {
   /*
-  VERSION: v2.0.2
+  VERSION: v2.0.3
   AUTHOR: KillTheCake
   NOTES: Check for latest versions! https://github.com/savwiley/DW-darkmode
   */
@@ -1077,6 +1077,28 @@
     color: var(--skin-headers);
     border-color: var(--skin-visited);
     font-weight: normal;
+  }
+
+  /* ----- BETA ----- */
+  .autocomplete-container {
+    background: var(--skin-background);
+    border: none;
+  }
+  
+  .panel .button.secondary, 
+  .panel button.secondary {
+    background-color: var(--skin-dimBackground);
+    color: var(--skin-text);
+    box-shadow: none;
+    border-color: var(--skin-darkAccent);
+  }
+  
+  form .current-entry.row {
+    margin-left: -30px !important;
+  }
+  
+  #canvas .component .postfix {
+    font-size: 13px;
   }
   
   /* ------ MEDIA ------ */
